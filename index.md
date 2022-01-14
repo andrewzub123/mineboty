@@ -1,6 +1,6 @@
 ## Welcome to Mineboty
 
-You can use the [Minebty](https://github.com/Team-IC/mineboty) to make server 24/7 also you can do pvp practice also.
+You can use the [Mineboty](https://github.com/Team-IC/mineboty) to make server 24/7 also you can do pvp practice also.
 
 ## Must have node.js version 14 or greater
 
