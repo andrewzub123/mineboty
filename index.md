@@ -1,37 +1,65 @@
 ## Welcome to Mineboty
 
-You can use the [editor on GitHub](https://github.com/Team-IC/mineboty/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+You can use the [Minebty](https://github.com/Team-IC/mineboty) to make server 24/7 also you can do pvp practice also.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Must have node.js version 14 or greater
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## step 1
+paste this in main start up file
+```js
+//It can be use also in TypeScript same which is
+ const {mineboty} = require("mineboty")
+ //no change in main file :)
+ mineboty(); 
+ //This much only now make config.json
+```
+##step 2
+Must paste in config.json
+```json
+{
+ "ip": "Your_minecraft_server_ip_here",
+ "port": "Your_server_port_here",
+ "name": "Your_bot_name_here",
+ "auto-night-skip": "false",
+ "loginmsg": "Your_Login_message_here",
+ "prefix": "!",
+ "version": "1.17.1"
+}
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## If you are using replit then replace index.js to get the link
+```yaml
+const express = require("express");
 
-### Jekyll Themes
+const app = express()
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Team-IC/mineboty/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+app.get('/', (req, res) => {
 
-### Support or Contact
+  res.send("Use this link for uptime")
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+})
+
+app.listen(3000, () => {
+
+  console.log("bot started")
+
+})
+
+const { mineboty } = require("mineboty")
+
+mineboty(); 
+```
+
+# why mineboty
+- mineboty is better than afk bots
+- mineboty has multiple features
+- easy to use
+- helping bot
+- Developed by Team-IC 
+- login system (so you can also use login so bot dose not get kicked by login plugin)
+- prefix
+- custom commands 
+- and more!!!!
+## Happy New Year
+
+# pls help us by staring or forking this repo 
