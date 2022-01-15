@@ -1,7 +1,9 @@
 {
- "ip": "play.termonsmp.tk",
+ "ip": "play.teamic.me",
  "port": "",
- "name": "noice",
+ "name": "eeeeeeeee",
  "auto-night-skip": "false",
- "loginmsg": "keep (/register <your password> for first time then chainge it to /login <your password> "
+ "loginmsg": "/login eeeeeeeeeee",
+ "prefix": "!",
+ "version": "1.8"
 }
