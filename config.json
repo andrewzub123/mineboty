@@ -1,9 +1,9 @@
 {
- "ip": "Your_minecraft_server_ip_here",
- "port": "Your_server_port_here",
- "name": "Your_bot_name_here",
+ "ip": "darmainland.aternos.me",
+ "port": "38706",
+ "name": "MEE10",
  "auto-night-skip": "false",
  "loginmsg": "Your_Login_message_here",
  "prefix": "!",
- "version": "1.17.1"
+ "version": "1.118.1"
 }
